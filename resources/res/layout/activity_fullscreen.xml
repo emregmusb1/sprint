@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="#ff0099cc" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="50sp" android:textStyle="bold" android:textColor="#ff33b5e5" android:gravity="center" android:id="@+id/fullscreen_content" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true"/>
+    <FrameLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@+id/webView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</FrameLayout>
